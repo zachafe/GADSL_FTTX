@@ -1,0 +1,28 @@
+{
+	"centrales": [
+	{
+		"id": 5613,
+		"nombre_central": "FTTH CR TERRACOTA A (CL 59 # 93-130)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CL 59 # 93-130",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},{
+		"id": 5614,
+		"nombre_central": "FTTH CR TERRACOTA B (CL 58 # 93-199)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CL 58 # 93-199",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	}]
+}

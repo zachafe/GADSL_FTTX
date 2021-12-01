@@ -1,0 +1,212 @@
+{
+	"centrales": [
+	{
+		"id": 5342,
+		"nombre_central": "FTTH CONDOMINIO VENTOVITA (CL 9 # 114 - 162)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CL 9 # 114 - 162",
+		"central_padre": 16,
+		"zona_central": 16,
+		"influencia": 1
+	},{
+		"id": 5343,
+		"nombre_central": "FTTH CONDOMINIO MIRADOR DE LA LOMA (CRA 116 # 9 - 35)",
+		"fk_atributos__ciudades": 1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 116 # 9 - 35",
+		"central_padre": 16,
+		"zona_central": 16,
+		"influencia": 1
+	},{
+		"id": 5344,
+		"nombre_central": "FTTH CONDOMINIO BALCON DE LA LOMA (CRA 116 # 9 - 10)",
+		"fk_atributos__ciudades": 1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 116 # 9 - 10",
+		"central_padre": 16,
+		"zona_central": 16,
+		"influencia": 1
+	},{
+		"id": 5345,
+		"nombre_central": "FTTH CONDOMINIO TERRAZAS DE LOMA (CL 9 # 114 - 195)",
+		"fk_atributos__ciudades": 1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CL 9 # 114 - 195",
+		"central_padre": 16,
+		"zona_central": 16,
+		"influencia": 1
+	},{
+		"id": 5346,
+		"nombre_central": "FTTH CONDOMINIO PUERTAS DEL VIENTO (CL 9 #116-34)",
+		"fk_atributos__ciudades": 1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CL 9 #116-34",
+		"central_padre": 16,
+		"zona_central": 16,
+		"influencia": 1
+	}]
+}
+###########################################
+{
+	"fk_gestion__tecnologia":4,
+	"fk_RMS__uam":1947,
+	"tarjeta":12,
+	"puerto":7,
+	"res_plantside":"00160000F025:2",
+	"DIRECCION":"Carrera 116 con Calle 9",
+	"NIVEL_SALIDAS_MAX":8,
+	"NAME_N1": "0016S0591",
+	"splitters": [
+		{
+			"POSICION_N1": 1,
+			"NAME_N2": "0016S0592",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5342,
+			"nombre_proyecto":"FTTH CONDOMINIO VENTOVITA (CL 9 # 114 - 162)",
+			"DIRECCION":"CL 9 #114-162",
+			"influencia":"CASAS 11 A 18",
+			"jsonInfluencia":"{\"CASAS\":[11,12,13,14,15,16,17,18]}"
+		},
+		{
+			"POSICION_N1": 2,
+			"NAME_N2": "0016S0593",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5342,
+			"nombre_proyecto":"FTTH CONDOMINIO VENTOVITA (CL 9 # 114 - 162)",
+			"DIRECCION":"CL 9 #114-162",
+			"influencia":"CASAS 1 A 10",
+			"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,7,8,9,10]}"
+		},
+		{
+			"POSICION_N1": 3,
+			"NAME_N2": "0016S0594",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5343,
+			"nombre_proyecto":"FTTH CONDOMINIO MIRADOR DE LA LOMA (CRA 116 # 9 - 35)",
+			"DIRECCION":"CRA 116 # 9 - 35",
+			"influencia":"No suministrado",
+			"jsonInfluencia":"{}"
+		},
+		{
+			"POSICION_N1": 4,
+			"NAME_N2": "0016S0595",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5344,
+			"nombre_proyecto":"FTTH CONDOMINIO BALCON DE LA LOMA (CRA 116 # 9 - 10)",
+			"DIRECCION":"CRA 116 # 9 - 10",
+			"influencia":"CASAS 1 A 9",
+			"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,7,8,9]}"
+		},
+		{
+			"POSICION_N1": 5,
+			"NAME_N2": "0016S0596",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5344,
+			"nombre_proyecto":"FTTH CONDOMINIO BALCON DE LA LOMA (CRA 116 # 9 - 10)",
+			"DIRECCION":"CRA 116 # 9 - 10",
+			"influencia":"CASAS 11 A 18",
+			"jsonInfluencia":"{\"CASAS\":[11,12,13,14,15,16,17,18]}"
+		},
+		{
+			"POSICION_N1": 6,
+			"NAME_N2": "0016S0597",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5345,
+			"nombre_proyecto":"FTTH CONDOMINIO TERRAZAS DE LOMA (CL 9 # 114 - 195)",
+			"DIRECCION":"CL 9 # 114 - 195",
+			"influencia":"CASAS 1 A 13",
+			"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,7,8,9,10,11,12,13]}"
+		},
+		{
+			"POSICION_N1": 7,
+			"NAME_N2": "0016S0598",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5345,
+			"nombre_proyecto":"FTTH CONDOMINIO TERRAZAS DE LOMA (CL 9 # 114 - 195)",
+			"DIRECCION":"CL 9 # 114 - 195",
+			"influencia":"CASAS 1 A 13",
+			"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,7,8,9,10,11,12,13]}"
+		},
+		{
+			"POSICION_N1": 8,
+			"NAME_N2": "0016S0599",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5346,
+			"nombre_proyecto":"FTTH CONDOMINIO PUERTAS DEL VIENTO (CL 9 #116-34)",
+			"DIRECCION":"CL 9 #116-34",
+			"influencia":"CASAS 1 A 15",
+			"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}"
+		}
+	]
+}
+###############################
+{
+	"fk_gestion__tecnologia":4,
+	"fk_RMS__uam":1947,
+	"tarjeta":12,
+	"puerto":14,
+	"res_plantside":"00160000F025:9",
+	"DIRECCION":"CARRERA  115 CON CALLE VILACHE",
+	"NIVEL_SALIDAS_MAX":8,
+	"NAME_N1": "0016S0654",
+	"splitters": [
+		{
+			"POSICION_N1": 1,
+			"NAME_N2": "0016S0655",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5347,
+			"nombre_proyecto":"FTTH N1 0016S0654 SE. PARCELACIONES CR 115 (5A,6) CLL VILACHE",
+			"DIRECCION":"CL 17A #115-08",
+			"influencia":"CL 17A #115-XX",
+			"jsonInfluencia":"{\"PLACAS\":{\"CL 17A # 115\":[8]}}"
+		},
+		{
+			"POSICION_N1": 2,
+			"NAME_N2": "0016S0656",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5347,
+			"nombre_proyecto":"FTTH N1 0016S0654 SE. PARCELACIONES CR 115 (5A,6) CLL VILACHE",
+			"DIRECCION":"CL 17 #114-35",
+			"influencia":"CL 17 #114-XX",
+			"jsonInfluencia":"{\"PLACAS\":{\"CL 17 #114\":[8]}}"
+		},
+		{
+			"POSICION_N1": 3,
+			"NAME_N2": "0016S0657",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5347,
+			"nombre_proyecto":"FTTH N1 0016S0654 SE. PARCELACIONES CR 115 (5A,6) CLL VILACHE",
+			"DIRECCION":"CARRERA 117 #16-300",
+			"influencia":"CR 117 #16-XX",
+			"jsonInfluencia":"{\"PLACAS\":{\"CR 117 #16\":[8]}}"
+		},
+		{
+			"POSICION_N1": 4,
+			"NAME_N2": "0016S0658",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5347,
+			"nombre_proyecto":"FTTH N1 0016S0654 SE. PARCELACIONES CR 115 (5A,6) CLL VILACHE",
+			"DIRECCION":"CARRERA 117 #16B-49",
+			"influencia":"CR 117 #16B-XX",
+			"jsonInfluencia":"{\"PLACAS\":{\"CR 117 #16B\":[8]}}"
+		},
+		{
+			"POSICION_N1": 5,
+			"NAME_N2": "0016S0659",
+			"NIVEL_SALIDAS":8,
+			"fk_gestion__central":5347,
+			"nombre_proyecto":"FTTH N1 0016S0654 SE. PARCELACIONES CR 115 (5A,6) CLL VILACHE",
+			"DIRECCION":"CARRERA 115 #44-00",
+			"influencia":"CR 115 #144-XX",
+			"jsonInfluencia":"{\"PLACAS\":{\"CR 115 #144\":[8]}}"
+		}
+	]
+}
+
+
