@@ -1,16 +1,121 @@
 {
 	"centrales": [
 	{
-		"id": 5616,
-		"nombre_central": "FTTH CR RINCON DE LAS GARZAS(CL 1N # 21A-03)",
-		"fk_atributos__ciudades":2,
+		"id": 5633,
+		"nombre_central": "FTTH  N1 0017S0401 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
 		"zona": "S",
 		"sector": "1",
-		"direccion": "CL 1N # 21A-03",
-		"central_padre": 4,
-		"zona_central": 4,
+		"direccion": "CLL 47 #50-73",
+		"central_padre": 17,
+		"zona_central": 17,
 		"influencia": 1,
 		"s_venta": 2,
 		"s_instale": 2
-	}]
+	},
+	{
+		"id": 5634,
+		"nombre_central": "FTTH  N1 0017S0410 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CLL 46 #50-83",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5635,
+		"nombre_central": "FTTH  N1 0017S0419 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 67 #46-05",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5636,
+		"nombre_central": "FTTH  N1 0017S0491 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 67A #43-05",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5637,
+		"nombre_central": "FTTH  N1 0017S0500 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 67B #43-05",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5638,
+		"nombre_central": "FTTH  N1 0017S0509 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 59 #43-64",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5639,
+		"nombre_central": "FTTH  N1 0017S0518 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CLL 42 #50-87",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5640,
+		"nombre_central": "FTTH  N1 0017S0527 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CRA 69 #42-05",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	},
+	{
+		"id": 5641,
+		"nombre_central": "FTTH  N1 0017S0536 (CIUDAD 2000)",
+		"fk_atributos__ciudades":1,
+		"zona": "S",
+		"sector": "1",
+		"direccion": "CLL 42A #68-77",
+		"central_padre": 17,
+		"zona_central": 17,
+		"influencia": 1,
+		"s_venta": 2,
+		"s_instale": 2
+	}
+	]
 }

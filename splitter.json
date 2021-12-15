@@ -1,172 +1,768 @@
 {
-	"nombre_proyecto":"FTTH CR RINCON DE LAS GARZAS(CL 1N # 21A-03)",
-	"fk_gestion__central":5616,
-	"direccion Base":"KR 22A SUR #2A SUR LADO IZQUIERDO PORTERIA",
 	"fk_gestion__tecnologia":4,
-	"fk_RMS__uam":1949,
+	"fk_RMS__uam":1952,
 	"splitterN1": [
 		{
-			"tarjeta":2,
-			"puerto":11,
-			"res_plantside":"00040000F008:38",
-			"DIRECCION":"CL 1N # 21A-03",
+			"nombre_proyecto":"FTTH  N1 0017S0401 (CIUDAD 2000)",
+			"fk_gestion__central":5633,
+			"tarjeta":1,
+			"puerto":1,
+			"res_plantside":"00170000F036:5",
+			"DIRECCION":"CLL 47 #50-73",
 			"NIVEL_SALIDAS_MAX":8,
-			"NAME_N1": "0004S0629",
+			"NAME_N1": "0017S0401",
 			"subir":1,
 			"splitterN2": [
 				{
 					"POSICION_N1": 1,
-					"NAME_N2": "0004S0630",
+					"NAME_N2": "0017S0402",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 85",
-					"influencia":"CASAS 85,86,87,20,21,22,23,24",
-					"jsonInfluencia":"{\"CASAS\":[85,86,87,20,21,22,23,24]}",
+					"DIRECCION":"CRA 59 #47A-30",
+					"influencia":"CLL 48 ENTRE CRA 50 Y CRA 59",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 2,
-					"NAME_N2": "0004S0631",
+					"NAME_N2": "0017S0403",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 94",
-					"influencia":"CASAS 88,89,90,91,92,93,94,25,26,27,28,29,30,31,32,33,34,35,36,37",
-					"jsonInfluencia":"{\"CASAS\":[88,89,90,91,92,93,94,25,26,27,28,29,30,31,32,33,34,35,36,37]}",
+					"DIRECCION":"CRA 59 #47A-06",
+					"influencia":"CRA 59 #46 [06 A LA 36], CRA 59 #47 [06 A LA  36], CRA 59 #47A [06 A LA 30] LADO PAR ",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 3,
-					"NAME_N2": "0004S0632",
+					"NAME_N2": "0017S0404",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 95",
-					"influencia":"CASAS 95,96,97,98,99,100,101,38,39,40,41,42,43,44,45,46,47,48,49",
-					"jsonInfluencia":"{\"CASAS\":[95,96,97,98,99,100,101,38,39,40,41,42,43,44,45,46,47,48,49]}",
+					"DIRECCION":"CLL47A #50-25",
+					"influencia":"CRA 50 #47A-06, CLL47A #50-[28 A LA 76] LADO PAR, CLL47A #50-[19 A LA  49] CRA 59 #47-25 LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 4,
-					"NAME_N2": "0004S0633",
+					"NAME_N2": "0017S0405",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 62",
-					"influencia":"CASAS 62,63,64,56,57,58,59,60,61",
-					"jsonInfluencia":"{\"CASAS\":[62,63,64,56,57,58,59,60,61]}",
+					"DIRECCION":"CLL47A Frt #50-68",
+					"influencia":"CRA 50 #47A-06, CLL47A #50-[28 A LA 76] LADO PAR, CLL47A #50-[19 A LA  49] CRA 59 #47-25 LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 5,
-					"NAME_N2": "0004S0634",
-					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 74",
-					"influencia":"CASAS 65,66,67,68,69,70,71,72,73,74,105,106,107,108,109,110,111,112,113,114",
-					"jsonInfluencia":"{\"CASAS\":[65,66,67,68,69,70,71,72,73,74,105,106,107,108,109,110,111,112,113,114]}",
+					"NAME_N2": "0017S0406",
+					"NIVEL_SALIDAS":16,
+					"DIRECCION":"CLL 47 #50-19",
+					"influencia":"CRA 50 #46-26, CLL 47 #50 [14 A LA  80] LADO PAR, CLL 47 #50 [17 A LA 73] LADO IMPAR ",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 6,
-					"NAME_N2": "0004S0635",
-					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 12",
-					"influencia":"CASAS 11,12,13,14,15,16,17,18,19",
-					"jsonInfluencia":"{\"CASAS\":[11,12,13,14,15,16,17,18,19]}",
+					"NAME_N2": "0017S0407",
+					"NIVEL_SALIDAS":16,
+					"DIRECCION":"CLL47 #50-55",
+					"influencia":"CRA 50 #46-25, CLL 47 #50 [14 A LA  80] LADO PAR, CLL 47 #50 [17 A LA 73] LADO IMPAR ",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 7,
-					"NAME_N2": "0004S0636",
-					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 1",
-					"influencia":"CASAS 1,2,3,4,5,6,7,8,9,10,75,76,77,78,79,80,81,82,83,84",
-					"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,7,8,9,10,75,76,77,78,79,80,81,82,83,84]}",
+					"NAME_N2": "0017S0408",
+					"NIVEL_SALIDAS":16,
+					"DIRECCION":"CRA 59 Fte #46-24",
+					"influencia":"CRA 59 #46-[06 A LA 36] #47-[06 A LA 36] 47A-[06 A LA  30] LADO PAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 8,
-					"NAME_N2": "0004S0637",
+					"NAME_N2": "0017S0409",
+					"NIVEL_SALIDAS":16,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 4 PISO 1",
+					"influencia":"TORRE 4 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0410 (CIUDAD 2000)",
+			"fk_gestion__central":5634,
+			"tarjeta":1,
+			"puerto":2,
+			"res_plantside":"00170000F036:6",
+			"DIRECCION":"CLL 46 #50-83",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0410",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0411",
+					"NIVEL_SALIDAS":16,
+					"DIRECCION":"CRA 50 #45-24",
+					"influencia":"CRA 50 #45-[12 A LA 90] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0412",
+					"NIVEL_SALIDAS":16,
+					"DIRECCION":"CRA 50 #45-72",
+					"influencia":"CRA 50 #45-[12 A LA 90] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0413",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 STRIP POR CASA 104",
-					"influencia":"CASAS 102,101,102,103,104,50,51,52,53,54,55",
-					"jsonInfluencia":"{\"CASAS\":[102,101,102,103,104,50,51,52,53,54,55]}",
+					"DIRECCION":"CLL 46 #50-35",
+					"influencia":"CLL 46 #50-[11 A LA 83] LADO IMPAR ",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0414",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA54 #45-29",
+					"influencia":"CRA 54 #45-[07, A L A 85] CLL 46 #50-26  LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0415",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA54 #45-79",
+					"influencia":"CRA 54 #45-[07, A L A 85] CLL 46 #50-26  LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S0416",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 59 #45-24",
+					"influencia":"CRA 59 #45-[06 A LA  96] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S0417",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 59 #45-84",
+					"influencia":"CRA 59 #45-[06 A LA  96] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S0418",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 1 PISO 1",
+					"influencia":"TORRE 1 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0419 (CIUDAD 2000)",
+			"fk_gestion__central":5635,
+			"tarjeta":1,
+			"puerto":3,
+			"res_plantside":"00170000F036:7",
+			"DIRECCION":"CRA 67 #46-05",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0419",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0420",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #45-17",
+					"influencia":"CRA 63 #45-[06 A LA 96] LADO PAR, [05 A LA  95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0421",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #45-65",
+					"influencia":"CRA 63 #45-[06 A LA 96] LADO PAR, [05 A LA  95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0422",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #46-77",
+					"influencia":"CRA 63 #46-[06 A LA 102] LADO PAR, [05 A LA 101] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0423",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #46-23",
+					"influencia":"CRA 63 #46-[06 A LA 102] LADO PAR, [05 A LA 101] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0424",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67 #45-17",
+					"influencia":"CRA 67 #45- [06 A LA 96] LADO PAR CRA 67 #45-[05 A LA 95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S0425",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67 #45-65",
+					"influencia":"CRA 67 #45- [06 A LA 96] LADO PAR CRA 67 #45-[05 A LA 95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S0426",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67 #46-77",
+					"influencia":"CRA 67 #46- [06 A LA  102] LADO PAR CRA 67 #46-[05 A LA 101] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S0427",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67 #46-17",
+					"influencia":"CRA 67 #46- [06 A LA  102] LADO PAR CRA 67 #46-[05 A LA 101] LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				}
 			]
 		},
 		{
-			"tarjeta":12,
-			"puerto":16,
-			"res_plantside":"00170000F040:112",
-			"DIRECCION":"CL 1N # 21A-03",
+			"nombre_proyecto":"FTTH  N1 0017S0491 (CIUDAD 2000)",
+			"fk_gestion__central":5636,
+			"tarjeta":1,
+			"puerto":11,
+			"res_plantside":"00170000F036:15",
+			"DIRECCION":"CRA 67A #43-05",
 			"NIVEL_SALIDAS_MAX":8,
-			"NAME_N1": "0017S2397",
-			"subir":0,
+			"NAME_N1": "0017S0491",
+			"subir":1,
 			"splitterN2": [
 				{
 					"POSICION_N1": 1,
-					"NAME_N2": "0017S2398",
+					"NAME_N2": "0017S0492",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 TORRE A - PISO 1",
-					"influencia":"TORRE A APTOS 504,503,502,501,404,403,402,401,304,303",
-					"jsonInfluencia":"{\"TORRE\":{\"A\":[504,503,502,501,404,403,402,401,304,303]}}",
+					"DIRECCION":"CRA 67 #43-113",
+					"influencia":"CRA 67 #43-[04 A LA 124] LADO PAR, [05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 2,
-					"NAME_N2": "0017S2399",
+					"NAME_N2": "0017S0493",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 TORRE A - PISO 1",
-					"influencia":"TORRE A APTOS 302,301,204,203,202,201,104,103,102,101",
-					"jsonInfluencia":"{\"TORRE\":{\"A\":[302,301,204,203,202,201,104,103,102,101]}}",
+					"DIRECCION":"CRA 67 #43-05",
+					"influencia":"CRA 67 #43-[04 A LA 124] LADO PAR, [05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 3,
-					"NAME_N2": "0017S2400",
+					"NAME_N2": "0017S0494",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 TORRE B - PISO 1",
-					"influencia":"TORRE B APTOS 504,503,502,501,404,403,402,401,304,303",
-					"jsonInfluencia":"{\"TORRE\":{\"B\":[504,503,502,501,404,403,402,401,304,303]}}",
+					"DIRECCION":"CRA 67A #43-113",
+					"influencia":"CRA 67A #43-[04 A LA 124] LADO PAR, [05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 4,
-					"NAME_N2": "0017S2401",
+					"NAME_N2": "0017S0495",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 1N # 21A-03 TORRE B - PISO 1",
-					"influencia":"TORRE B APTOS 302,301,204,203,202,201,104,103,102,101",
-					"jsonInfluencia":"{\"TORRE\":{\"B\":[302,301,204,203,202,201,104,103,102,101]}}",
+					"DIRECCION":"CRA 67A #43-05",
+					"influencia":"CRA 67A #43-[04 A LA 124] LADO PAR, [05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
 					"subir":1
 				},
 				{
 					"POSICION_N1": 5,
-					"NAME_N2": "0017S0411",
+					"NAME_N2": "0017S0496",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 2 # 116 -650 CASA 16",
-					"influencia":"Casas 12 a 17 + 30 a 32",
-					"jsonInfluencia":"{\"CASAS\":[12,13,14,15,16,17,30,31,32]}",
-					"subir":0
+					"DIRECCION":"CLL 43 #67-28",
+					"influencia":"CLL 43 #67-[10 A LA 88] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
 				},
 				{
 					"POSICION_N1": 6,
-					"NAME_N2": "0017S0412",
+					"NAME_N2": "0017S1450",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 2 # 116 - 420 CASA 16",
-					"influencia":"Casas 7 a 17",
-					"jsonInfluencia":"{\"CASAS\":[7,8,9,10,11,12,13,14,15,16,17]}",
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 7",
+					"influencia":"TORRE 6 APTOS 502,501,602,601,702,701,802,801",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[502,501,602,601,702,701,802,801]}}",
 					"subir":0
 				},
 				{
 					"POSICION_N1": 7,
-					"NAME_N2": "0017S0413",
+					"NAME_N2": "0017S1451",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 2 # 116 - 420 CASA 16",
-					"influencia":"Casas 1 a 6 + 18 a 22 ",
-					"jsonInfluencia":"{\"CASAS\":[1,2,3,4,5,6,18,19,20,21,22]}",
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 107,108,207,208,307,308,407,408",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[107,108,207,208,307,308,407,408]}}",
 					"subir":0
 				},
 				{
 					"POSICION_N1": 8,
-					"NAME_N2": "0017S1308",
+					"NAME_N2": "0017S1452",
 					"NIVEL_SALIDAS":8,
-					"DIRECCION":"CL 59 # 93-130 TORRE 5B PISO 1",
-					"influencia":"TORRE 5B APTOS 303,304,401,402,403,404,501,502,503,504",
-					"jsonInfluencia":"{\"TORRE\":{\"5B\":[303,304,401,402,403,404,501,502,503,504]}}",
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[102,101,202,201,302,301,402,401]}}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0500 (CIUDAD 2000)",
+			"fk_gestion__central":5637,
+			"tarjeta":1,
+			"puerto":12,
+			"res_plantside":"00170000F036:16",
+			"DIRECCION":"CRA 67B #43-05",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0500",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0501",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 45 #67A-53",
+					"influencia":"CLL 45 #67A-[05 A LA 95]LADO IMPAR,   67B-[10 A LA 58] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0502",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 45 #67A-35",
+					"influencia":"CLL 45 #67A-[05 A LA 95]LADO IMPAR  67B-[10 A LA 58]LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0503",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 44 #67B-17",
+					"influencia":"CLL 44 #67B-[05 A LA 59] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0504",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67B #43-101",
+					"influencia":"CRA 67B #43-[05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0505",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67B #43-05",
+					"influencia":"CRA 67B #43-[05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S1450",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 7",
+					"influencia":"TORRE 6 APTOS 502,501,602,601,702,701,802,801",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[502,501,602,601,702,701,802,801]}}",
+					"subir":0
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S1451",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 107,108,207,208,307,308,407,408",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[107,108,207,208,307,308,407,408]}}",
+					"subir":0
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S1452",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[102,101,202,201,302,301,402,401]}}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0509 (CIUDAD 2000)",
+			"fk_gestion__central":5638,
+			"tarjeta":1,
+			"puerto":13,
+			"res_plantside":"00170000F036:23",
+			"DIRECCION":"CRA 59 fFtr #43-64",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0509",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0510",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 45 Fte #50-30",
+					"influencia":"CLL 45 #50-[18 A LA  90] LADO PAR, CRA 59 #44-25 LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0511",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 45 #50-90",
+					"influencia":"CLL 45 #50-[18 A LA  90] LADO PAR, CRA 59 #44-25 LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0512",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 44 #50-31",
+					"influencia":"CLL 44 #50-[06 A LA 112] LADO PAR, [07 A LA 111] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0513",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 44 #50-79",
+					"influencia":"CLL 44 #50-[06 A LA 112] LADO PAR, [07 A LA 111] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0514",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 44 #50-79",
+					"influencia":"CLL 44 #50-[06 A LA 112] LADO PAR, [07 A LA 111] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S0515",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 43A #50-29",
+					"influencia":"CRA 50 #43A-04 LADO PAR, CLL 43A #50-[11 A LA 91] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S0516",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 59 #43-64",
+					"influencia":"CRA 59 #43-[46 A LA 124] LADO PAR [06 A LA 112] LADO PAR [07 A LA 111] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S0517",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[102,101,202,201,302,301,402,401]}}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0518 (CIUDAD 2000)",
+			"fk_gestion__central":5639,
+			"tarjeta":1,
+			"puerto":14,
+			"res_plantside":"00170000F036:24",
+			"DIRECCION":"CLL 42 #50-87",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0518",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0519",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 43 #50-22",
+					"influencia":"CLL 43 #50-[10 A LA  94] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0520",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 59 #43-04",
+					"influencia":"CRA 59 #43-[04 A LA 40] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0521",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #50-29",
+					"influencia":"CLL 42A #42-[28 A LA 90] LADO PAR [09 A LA 95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0522",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #50-29",
+					"influencia":"CLL 42A #42-[28 A LA 90] LADO PAR [09 A LA 95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0523",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #50-83",
+					"influencia":"CLL 42A #42-[28 A LA 90] LADO PAR [09 A LA 95] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S0524",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 59 Fte#42-16",
+					"influencia":"CRA 59 #42-[04 A LA 58] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S0525",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42 #50-69",
+					"influencia":"CLL 42 #50-[53 A LA 87] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S1452",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[102,101,202,201,302,301,402,401]}}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0527 (CIUDAD 2000)",
+			"fk_gestion__central":5640,
+			"tarjeta":1,
+			"puerto":15,
+			"res_plantside":"00170000F036:25",
+			"DIRECCION":"CRA 69 #42-05",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0527",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0528",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #43-113",
+					"influencia":"CRA 63 #43-[04 A LA 124] LADO PAR [05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0529",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #43-17",
+					"influencia":"CRA 63 #43-[04 A LA 124] LADO PAR [05 A LA 125] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0530",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #42-41",
+					"influencia":"CRA 63 #42-[04 A LA 58] LADO PAR [05 A LA 53] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0531",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 63 #42-11",
+					"influencia":"CRA 63 #42-[04 A LA 58] LADO PAR [05 A LA 53] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0532",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42 #67-69",
+					"influencia":"CLL 42 #67-[09 A LA 87] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S1450",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 7",
+					"influencia":"TORRE 6 APTOS 502,501,602,601,702,701,802,801",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[502,501,602,601,702,701,802,801]}}",
+					"subir":0
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S1451",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 107,108,207,208,307,308,407,408",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[107,108,207,208,307,308,407,408]}}",
+					"subir":0
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S1452",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[102,101,202,201,302,301,402,401]}}",
+					"subir":0
+				}
+			]
+		},
+		{
+			"nombre_proyecto":"FTTH  N1 0017S0536 (CIUDAD 2000)",
+			"fk_gestion__central":5641,
+			"tarjeta":1,
+			"puerto":16,
+			"res_plantside":"00170000F039:61",
+			"DIRECCION":"CLL 42A #68-77",
+			"NIVEL_SALIDAS_MAX":8,
+			"NAME_N1": "0017S0536",
+			"subir":1,
+			"splitterN2": [
+				{
+					"POSICION_N1": 1,
+					"NAME_N2": "0017S0537",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CRA 67 #42-35",
+					"influencia":"CRA 67 #42-[05 A LA 59] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 2,
+					"NAME_N2": "0017S0538",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #67-27",
+					"influencia":"CLL 42A #67-[10 A LA 88] LADO PAR [09 A LA 87] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 3,
+					"NAME_N2": "0017S0539",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #67-69",
+					"influencia":"CLL 42A #67-[10 A LA 88] LADO PAR [09 A LA 87] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 4,
+					"NAME_N2": "0017S0540",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #68-23",
+					"influencia":"CLL 42A #68-[04 A LA 82] LADO PAR [05 A LA 77] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 5,
+					"NAME_N2": "0017S0541",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42A #68-59",
+					"influencia":"CLL 42A #68-[04 A LA 82] LADO PAR [05 A LA 77] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 6,
+					"NAME_N2": "0017S0542",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 42 #68-83",
+					"influencia":"CLL 42 #68-[05 A LA 83] LADO IMPAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 7,
+					"NAME_N2": "0017S0543",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CLL 43 #68-58",
+					"influencia":"CLL 43 #68-[04 A LA 76] LADO PAR",
+					"jsonInfluencia":"{}",
+					"subir":1
+				},
+				{
+					"POSICION_N1": 8,
+					"NAME_N2": "0017S1452",
+					"NIVEL_SALIDAS":8,
+					"DIRECCION":"CL 60 # 97BIS - 46 TORRE 6 PISO 1",
+					"influencia":"TORRE 6 APTOS 102,101,202,201,302,301,402,401",
+					"jsonInfluencia":"{\"TORRE\":{\"6\":[102,101,202,201,302,301,402,401]}}",
 					"subir":0
 				}
 			]
