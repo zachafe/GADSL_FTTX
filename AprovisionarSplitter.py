@@ -70,7 +70,7 @@ for splitterN1 in jsonObject['splitterN1']:
                     print("({},5,{},{},1,'{}','{}',{},{},1,1,{},'?','{}','{}','{}',5,1,2,0,664,now(),'{}','{}','{}','{}'),".format(
                         jsonObject["fk_gestion__tecnologia"],
                         jsonObject["fk_RMS__uam"],
-                        jsonObject['fk_gestion__central'],
+                        splitterN2['fk_gestion__central'],
                         tarjeta,
                         instanciaFinal,
                         splitterN1['puerto'],
@@ -79,7 +79,7 @@ for splitterN1 in jsonObject['splitterN1']:
                         splitterN1['res_plantside'],
                         splitter_N1,
                         splitter_N2,
-                        jsonObject['nombre_proyecto'],
+                        splitterN2['nombre_proyecto'],
                         splitterN2['influencia'],
                         splitterN2['jsonInfluencia'],
                         jsonSplitter
